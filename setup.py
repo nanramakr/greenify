@@ -41,7 +41,7 @@ setup(
     author_email="tianzhongbo@douban.com",
     url="https://github.com/douban/greenify",
     download_url="https://github.com/douban/greenify/archive/%s.tar.gz" % version,
-    setup_requires=["Cython >= 0.18"],
+    setup_requires=["Cython == 0.29.22"],
     install_requires=["gevent"],
     ext_modules=[
         Extension(
